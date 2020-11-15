@@ -39,7 +39,7 @@
 
   ### Credits
   
-  Thank you to the as ever-helpful slack tutors! They assisted me in troubleshooting some errors with MongoDB and Heroku. 
+  Thank you to the ever-helpful slack tutors! They assisted me in troubleshooting some errors with MongoDB and Heroku. 
   
   ******
 
