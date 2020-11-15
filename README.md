@@ -2,7 +2,7 @@
 
 ## Description  
 
-  This full-stack app is a fitness tracker that allows users to create a new workout plan by adding exercises, adding new exercices to an existing workout plan, and view the stats of their workouts on the dashboard. The app utilizes a MongoDB database and was deployed using Heroku and MongoDB Atlas. 
+  This full-stack app is a fitness tracker that allows users to create a new workout plan by adding various exercises, add new exercises to an existing workout plan, and view the stats of their workouts on the dashboard. The app utilizes a MongoDB database and was deployed using Heroku and MongoDB Atlas. 
   
 ![Screen Shot 2020-11-15 at 12 12 02 AM](https://user-images.githubusercontent.com/69770137/99178978-f7672e00-26e6-11eb-8314-f5af29b124b3.png)
 
