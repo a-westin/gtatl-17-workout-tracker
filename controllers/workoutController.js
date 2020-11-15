@@ -37,6 +37,22 @@ router.get("/api/workouts", function (req, res) {
       });
     });
 });
+
+router.get("api/workouts/:id", (req, res) => {
+
+  db.Workout.findById(req.params.id)
+      .then((foundWorkout) => {
+          res.json(foundWorkout);
+      })
+      .catch((err) => {
+          res.json({
+              error: true,
+              data: null,
+              message: "Failed to retrieve workout",
+          });
+      });
+});
+
 router.post("/api/workout", (req, res) => {
   db.Workout.create(req.body)
     .then((newWorkout) => {
