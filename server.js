@@ -34,22 +34,8 @@ app.get("/api/config", (req, res) => {
   });
 });
 
-app.post("/api/workouts", function (req, res) {
-  db.Workout.create(req.body)
-    .then(function (newWorkout) {
-      res.json(newWorkout);
-      console.log("Successfully hit this route");
-    })
-    .catch((err) => {
-      console.log(err);
-      res.json({
-        error: true,
-        data: null,
-        message: "Failed to post workouts.",
-      });
-    });
-});
 app.use(workoutController);
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
